@@ -28,7 +28,26 @@ export default function Home() {
             <p className="font-mono font-bold text-2xl mb-2">Royal Melbourne Institute of Technology, Australia</p>
             <p className="font-mono font-normal text-2xl mb-5">Bachelor of Computer Science</p>
             <p className="font-mono font-bold text-2xl mb-2">Gateway College, Sri Lanka</p>
-            <p className="font-mono font-normal text-2xl mb-20 text-balance">Edexcel/Cambridge International A Level in Mathematics (592/600 - A* - Highest Mark), Further Mathematics (546/600 - A* - Highest Mark) and Physics (569/600 -  A* - Highest Mark), Computer Science (87/100 - A)</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Edexcel/Cambridge International A Level in:</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Mathematics (592/600 - A* - Highest Mark)</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Further Mathematics (546/600 - A* - Highest Mark)</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Physics (569/600 -  A* - Highest Mark)</p>
+            <p className="font-mono font-normal text-2xl mb-20 text-balance">Computer Science (87/100 - A)</p>
+          </div>
+          <div>
+            <p className="font-mono font-bold text-5xl mb-5">Projects</p>
+            <a href="https://github.com/abbazsr795/Image-Classification" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">CNN Image Classification Model</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
+            <p className="font-mono font-normal text-2xl mb-5 text-balance">The Jupyter notebook showcases the development of a Convolutional Neural Network (CNN) Image Classification model. This model is designed to distinguish between two specific categories of images, such as happy and sad individuals. Additionally, the workflow includes a data pipeline aimed at enhancing efficiency and facilitating the integration of other image categories into the process. The tools used for this project are Python, Numpy, Pandas, Scikit-Learn and Tensorflow.</p>
+            <a href="https://github.com/abbazsr795/GUICalculator" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">GUI Calculator</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
+            <p className="font-mono font-normal text-2xl mb-5 text-balance">Create a Java calculator featuring a graphical user interface that supports basic arithmetic operations on all numbers, including negatives and decimals.</p>
+            <a href="https://racket-ideas.vercel.app/" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">Racket Ideas</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
+            <p className="font-mono font-normal text-2xl mb-5 text-balance">{"A startup I\'m currently working on that facilitates connections between business owners and potential investors and partners. Additionally, the platform allows businesses to gather feedback from the public through voting to assess their success rate and receive constructive criticisms through comments. The website was built using Next.js, Firebase, TailwindCSS, EvergreenUI, and Zustand for state management."}</p>
+            <a href="https://github.com/abbazsr795/SnakeGameJava" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">Feed The Snake!</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
+            <p className="font-mono font-normal text-2xl mb-5 text-balance">Developed a Java game where a user controls a snake to eat randomly appearing apples on the screen, boosting their score. The game features teleportation through edges and allows users to replay when the snake perishes.</p>
+            <p className="font-mono font-bold text-2xl mb-2">Portfolio Website</p>
+            <p className="font-mono font-normal text-2xl mb-5">{"You're in it right now! Built using TailwindCSS and NextJS"}</p>
+            <a href="https://racket-design.vercel.app/" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">Racket Design</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
+            <p className="font-mono font-normal text-2xl mb-20 text-balance">{"A versatile collection of web components crafted with a unique design ethos. Inspired by the innovative creations of Racket Labs, the startup I\'m proud to be a part of, these components embody elegance and functionality."}</p>
           </div>
           <div>
             <p className="font-mono font-bold text-5xl mb-5">License and Certification</p>
@@ -55,15 +74,6 @@ export default function Home() {
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">Git</p>
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">Firebase</p>
             </div>
-          </div>
-          <div>
-            <p className="font-mono font-bold text-5xl mb-5">Projects</p>
-            <a href="https://github.com/abbazsr795/Image-Classification" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">CNN Image Classification Model</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
-            <p className="font-mono font-normal text-2xl mb-5 text-balance">The Jupyter notebook showcases the development of a Convolutional Neural Network (CNN) Image Classification model. This model is designed to distinguish between two specific categories of images, such as happy and sad individuals. Additionally, the workflow includes a data pipeline aimed at enhancing efficiency and facilitating the integration of other image categories into the process. The tools used for this project are Python, Numpy, Pandas, Scikit-Learn and Tensorflow.</p>
-            <a href="https://racket-ideas.vercel.app/" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">Racket Ideas</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
-            <p className="font-mono font-normal text-2xl mb-5 text-balance">{"A startup I\'m currently working on that facilitates connections between business owners and potential investors and partners. Additionally, the platform allows businesses to gather feedback from the public through voting to assess their success rate and receive constructive criticisms through comments. The website was built using Next.js, Firebase, TailwindCSS, EvergreenUI, and Zustand for state management."}</p>
-            <a href="https://racket-design.vercel.app/" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">Racket Design</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
-            <p className="font-mono font-normal text-2xl mb-20 text-balance">{"A versatile collection of web components crafted with a unique design ethos. Inspired by the innovative creations of Racket Labs, the startup I\'m proud to be a part of, these components embody elegance and functionality."}</p>
           </div>
           <div>
             <p className="font-mono font-bold text-5xl mb-5">Honors and Awards</p>
