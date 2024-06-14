@@ -24,17 +24,6 @@ export default function Home() {
         </div>
         <div className="bg-white p-10 md:w-1/2 md:h-full md:overflow-auto">
           <div>
-            <p className="font-mono font-bold text-5xl mb-5">Education</p>
-            <p className="font-mono font-bold text-2xl mb-2">Royal Melbourne Institute of Technology, Australia</p>
-            <p className="font-mono font-normal text-2xl mb-5">Bachelor of Computer Science</p>
-            <p className="font-mono font-bold text-2xl mb-2">Gateway College, Sri Lanka</p>
-            <p className="font-mono font-normal text-2xl mb-2 text-balance">Edexcel/Cambridge International A Level in:</p>
-            <p className="font-mono font-normal text-2xl mb-2 text-balance">Mathematics (592/600 - A* - Highest Mark)</p>
-            <p className="font-mono font-normal text-2xl mb-2 text-balance">Further Mathematics (546/600 - A* - Highest Mark)</p>
-            <p className="font-mono font-normal text-2xl mb-2 text-balance">Physics (569/600 -  A* - Highest Mark)</p>
-            <p className="font-mono font-normal text-2xl mb-20 text-balance">Computer Science (87/100 - A)</p>
-          </div>
-          <div>
             <p className="font-mono font-bold text-5xl mb-5">Projects</p>
             <a href="https://github.com/abbazsr795/Image-Classification" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">CNN Image Classification Model</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
             <p className="font-mono font-normal text-2xl mb-5 text-balance">The Jupyter notebook showcases the development of a Convolutional Neural Network (CNN) Image Classification model. This model is designed to distinguish between two specific categories of images, such as happy and sad individuals. Additionally, the workflow includes a data pipeline aimed at enhancing efficiency and facilitating the integration of other image categories into the process. The tools used for this project are Python, Numpy, Pandas, Scikit-Learn and Tensorflow.</p>
@@ -48,6 +37,17 @@ export default function Home() {
             <p className="font-mono font-normal text-2xl mb-5">{"You're in it right now! Built using TailwindCSS and NextJS"}</p>
             <a href="https://racket-design.vercel.app/" className="flex flex-row gap-3 hover:border-b border-black w-fit"><p className="font-mono font-bold text-2xl mb-2">Racket Design</p><Image className="h-fit flex self-center" src={Link} width={20}></Image></a>
             <p className="font-mono font-normal text-2xl mb-20 text-balance">{"A versatile collection of web components crafted with a unique design ethos. Inspired by the innovative creations of Racket Labs, the startup I\'m proud to be a part of, these components embody elegance and functionality."}</p>
+          </div>
+          <div>
+            <p className="font-mono font-bold text-5xl mb-5">Education</p>
+            <p className="font-mono font-bold text-2xl mb-2">Royal Melbourne Institute of Technology, Australia</p>
+            <p className="font-mono font-normal text-2xl mb-5">Bachelor of Computer Science</p>
+            <p className="font-mono font-bold text-2xl mb-2">Gateway College, Sri Lanka</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Edexcel/Cambridge International A Level in:</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Mathematics (592/600 - A* - Highest Mark)</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Further Mathematics (546/600 - A* - Highest Mark)</p>
+            <p className="font-mono font-normal text-2xl mb-2 text-balance">Physics (569/600 -  A* - Highest Mark)</p>
+            <p className="font-mono font-normal text-2xl mb-20 text-balance">Computer Science (87/100 - A)</p>
           </div>
           <div>
             <p className="font-mono font-bold text-5xl mb-5">License and Certification</p>
