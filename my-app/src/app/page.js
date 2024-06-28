@@ -70,6 +70,7 @@ export default function Home() {
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">HTML</p>
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">CSS</p>
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">Java</p>
+              <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">SQL</p>
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">Python</p>
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">ReactJS</p>
               <p className="font-mono font-normal text-xl p-3 bg-sky-200 rounded-md">NextJS</p>
