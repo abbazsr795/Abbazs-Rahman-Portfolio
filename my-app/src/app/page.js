@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="flex md:flex-row flex-col h-screen text-wrap">
-      {/* LEFT SIDE */}
+      {/* LEFT */}
       <div className="bg-white p-10 md:w-1/2 md:h-full md:relative">
         <p className="font-mono font-semibold text-7xl mb-10">{name}</p>
         <p className="font-mono font-normal text-2xl mb-10">{title}</p>
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* RIGHT SIDE */}
+      {/* RIGHT */}
       <div className="bg-white p-10 md:w-1/2 md:h-full md:overflow-auto">
         {/* EXPERIENCE */}
         <section className="mb-20">
