@@ -7,11 +7,12 @@ import LinkIcon from "./icons/link-1.png"
 import { resumeData } from "./data/resume.tsx";
 
 export default function Home() {
+
   const { name, title, tagline, socials, experience, projects, education, certifications, skills, awards } = resumeData;
 
   return (
     <div className="flex md:flex-row flex-col h-screen text-wrap">
-      {/* LEFT */}
+      {/* LEFT SIDE */}
       <div className="bg-white p-10 md:w-1/2 md:h-full md:relative">
         <p className="font-mono font-semibold text-7xl mb-10">{name}</p>
         <p className="font-mono font-normal text-2xl mb-10">{title}</p>
@@ -29,7 +30,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* RIGHT */}
+      {/* RIGHT SIDE */}
       <div className="bg-white p-10 md:w-1/2 md:h-full md:overflow-auto">
         {/* EXPERIENCE */}
         <section className="mb-20">
